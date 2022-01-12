@@ -1,0 +1,52 @@
+/*Главный контент*/
+
+.hero {
+  padding-bottom: 200px;
+  padding-top: 200px;
+  text-align: center;
+  background: #2f303a;
+
+  &__title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+    margin-bottom: 30px;
+  }
+  &__button {
+    font-size: 16px;
+    line-height: 1.87;
+    font-weight: 700;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    background-color: #2196f3;
+    margin-right: auto;
+    margin-left: auto;
+    transition: background var(--timing-function), color var(--timing-function);
+  }
+
+  &__button:hover {
+    background: #188ce8;
+  }
+  &__button:focus {
+    color: var(--accent-color);
+    background: var(--primary-white-color);
+  }
+}
+.overlay {
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/Img.jpg);
+  max-width: 1600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+}

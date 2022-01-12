@@ -1,0 +1,37 @@
+.container-hf {
+  display: flex;
+  align-items: baseline;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  margin-bottom: 50px;
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  margin-right: 93px;
+}
+
+/*Деятельность-команда*/
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+header {
+  border-bottom: 1px solid #ececec;
+}
